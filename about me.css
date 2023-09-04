@@ -36,11 +36,14 @@ body{
     text-decoration: none;
     font-size: 18px;
 }
-
+.contact ul li a:link{
+    color: white;
+}
 .contact ul li text{
     padding-top: 8px;
     padding-left: 8px;
 }
+
 .contact ul li a:hover{
     color: white;
    text-decoration: underline;
