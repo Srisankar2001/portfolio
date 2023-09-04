@@ -1,0 +1,63 @@
+body{
+    color: white;
+    background-color: black;
+}
+.container h1{
+    font-size: 100px;
+    text-align: center;
+}
+.project1:hover,.project2:hover,.project3:hover{
+    background-color: rgb(128,128,128,0.2);
+    border-radius: 12px;
+}
+.project{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 40px;
+}
+
+.project img{
+    height: 100px;
+    width: 100px;
+}
+
+.project1,.project2,.project3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.project header{
+    padding-bottom: 10px;
+}
+nav a:link{
+    color:white;
+    text-decoration: none;
+}
+nav a:hover{
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+}
+nav a:active{
+    color:white;
+    text-decoration: none;
+}
+nav a:visited{
+    color:white;
+    text-decoration: none;
+}
+nav a{
+    transition: ease-in-out 0.5s;
+}
+nav{
+    font-size: 17px;
+    padding: 10px;
+    padding-left: 50%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
